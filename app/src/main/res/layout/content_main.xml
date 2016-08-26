@@ -17,10 +17,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:id="@+id/txt"/>
+        android:id="@+id/txt"
+        android:layout_gravity="center_horizontal" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="download"
-        android:id="@+id/dwnld"/>
+        android:text="simple Request"
+        android:id="@+id/dwnld"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request Queue"
+        android:id="@+id/dwnld1"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
